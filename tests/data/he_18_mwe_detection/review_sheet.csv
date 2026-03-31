@@ -1,0 +1,12 @@
+﻿item_type,item_text,expected,actual,pass_fail,discrepancy_type,notes
+mwe,בדיקה_לא_הרסנית,detected,,,,3-word technical MWE
+mwe,חומר_מרוכב_מסיבי_פחמן,detected,,,,4-word technical MWE
+mwe,טמפרטורת_חדר,detected,,,,2-word domain MWE
+mwe,לחץ_אטמוספירי,detected,,,,2-word domain MWE
+mwe,הלך_חלק_כמו_משי,optional,,,,idiom — may not be in technical domain
+mwe,בעד_עצמן,optional,,,,reflexive idiom
+mwe,עלה_על_שרטון,optional,,,,idiom
+sentence_count,mwe_technical,4,,,,
+sentence_count,mwe_idiomatic,4,,,,
+token_count,mwe_technical,19,,,,
+token_count,mwe_idiomatic,20,,,,
